@@ -5,8 +5,9 @@ Generating canvas animation of matrix digital rain effect
 
 # 1. Include ‘rain.js’ script:
 
+```js
 <script type='text/javascript' src='https://reiji.xyz/rain/rain.js'></script> 
-
+```
 
 # 2. Create new Rain object with static size as parameters or functions returning size for auto resizing:
 
