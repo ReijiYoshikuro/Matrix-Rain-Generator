@@ -79,7 +79,6 @@ rainbow_limit: int(0-255) ~ determines rgb lowest color limit (it won’t fall u
 
 
 # Default configuration:
-
 {
   backwards: false,
   speed_min: 0.6,
