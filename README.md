@@ -11,6 +11,7 @@ Generating canvas animation of matrix digital rain effect
 
 # 2. Create new Rain object with static size as parameters or functions returning size for auto resizing:
 
+```js
 <script type='text/javascript'>
   function Init() {
     //static definition
@@ -32,10 +33,11 @@ Generating canvas animation of matrix digital rain effect
 <body onload='Init()'>
 
 </body>
-
+```
 
 # 3. Call start() method of Rain to enable rain and get canvas element as result or load canvas as dataURL string using callback function:
 
+```js
  <script type='text/javascript'>
   function Init() {
     var rain = new Rain(200, 200);
@@ -56,6 +58,7 @@ Generating canvas animation of matrix digital rain effect
 
   }
 </script> 
+```
 
 
 # Available options:
@@ -80,6 +83,7 @@ rainbow_limit: int(0-255) ~ determines rgb lowest color limit (it won’t fall u
 
 
 # Default configuration:
+```js
 {
   backwards: false,
   speed_min: 0.6,
@@ -115,3 +119,4 @@ rainbow_limit: int(0-255) ~ determines rgb lowest color limit (it won’t fall u
     }
   }  
 }
+```
