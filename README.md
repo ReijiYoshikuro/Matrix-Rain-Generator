@@ -1,13 +1,14 @@
 # Matrix-Rain-Generator
 Generating canvas animation of matrix digital rain effect
 
-Usage:
-1. Include ‘rain.js’ script:
+# Usage:
+
+# 1. Include ‘rain.js’ script:
 
 <script type='text/javascript' src='https://reiji.xyz/rain/rain.js'></script> 
 
 
-2. Create new Rain object with static size as parameters or functions returning size for auto resizing:
+# 2. Create new Rain object with static size as parameters or functions returning size for auto resizing:
 
 <script type='text/javascript'>
   function Init() {
@@ -32,7 +33,7 @@ Usage:
 </body>
 
 
-3. Call start() method of Rain to enable rain and get canvas element as result or load canvas as dataURL string using callback function:
+# 3. Call start() method of Rain to enable rain and get canvas element as result or load canvas as dataURL string using callback function:
 
  <script type='text/javascript'>
   function Init() {
@@ -56,7 +57,7 @@ Usage:
 </script> 
 
 
-Available options:
+# Available options:
 
 backwards: true / false ~ changes direction of digital rain
 speed_min: float ~ minimal speed of single digit
@@ -77,7 +78,7 @@ rainbow_limit: int(0-255) ~ determines rgb lowest color limit (it won’t fall u
 
 
 
-Default configuration:
+# Default configuration:
 
 {
   backwards: false,
