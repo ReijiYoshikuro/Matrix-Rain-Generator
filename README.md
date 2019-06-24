@@ -63,22 +63,22 @@ Generating canvas animation of matrix digital rain effect
 
 # Available options:
 
-backwards: true / false ~ changes direction of digital rain
-speed_min: float ~ minimal speed of single digit
-speed_max: float ~ maximal speed of single digit (must be higher than speed_min) 
-particles_amount: int ~ defines max number of heads per column
-count_fps: true / false ~ counts fps and displays those as logs in console
-font_size: int ~ size of font displayed in digital rain
-font_style: style of font displayed in digital rain
-charArr: string ~ string array of characters displayed in digital rain
-disable_heads: true / false ~ discards first digit from being drawn on canvas
-disable_tails: true / false ~ discards tail of digits from being drawn on canvas
-color.[back / heads / tails]: {
-rgb: [int(0 – 255), int(0 – 255), int(0 – 255)] ~ rgb color of element
-a: float(0.0 – 0.1) ~ alpha channel (opacity) of element
-rainbow: true / false ~ determines if color of element should be modified every frame
-rainbow_speed: int(0-255) ~ determines how fast color of element should be modified
-rainbow_limit: int(0-255) ~ determines rgb lowest color limit (it won’t fall under that amount) }
+- backwards: true / false ~ changes direction of digital rain
+- speed_min: float ~ minimal speed of single digit
+- speed_max: float ~ maximal speed of single digit (must be higher than speed_min) 
+- particles_amount: int ~ defines max number of heads per column
+- count_fps: true / false ~ counts fps and displays those as logs in console
+- font_size: int ~ size of font displayed in digital rain
+- font_style: style of font displayed in digital rain
+- charArr: string ~ string array of characters displayed in digital rain
+- disable_heads: true / false ~ discards first digit from being drawn on canvas
+- disable_tails: true / false ~ discards tail of digits from being drawn on canvas
+- color.[back / heads / tails]: {
+- rgb: [int(0 – 255), int(0 – 255), int(0 – 255)] ~ rgb color of element
+- a: float(0.0 – 0.1) ~ alpha channel (opacity) of element
+- rainbow: true / false ~ determines if color of element should be modified every frame
+- rainbow_speed: int(0-255) ~ determines how fast color of element should be modified
+- rainbow_limit: int(0-255) ~ determines rgb lowest color limit (it won’t fall under that amount) }
 
 
 
