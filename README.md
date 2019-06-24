@@ -63,8 +63,8 @@ Generating canvas animation of matrix digital rain effect
 
 # Available options:
 
-- backwards: true / false ~ changes direction of digital rain
-- speed_min: float ~ minimal speed of single digit
+- *backwards*: true / false ~ changes direction of digital rain
+- **speed_min**: float ~ minimal speed of single digit
 - speed_max: float ~ maximal speed of single digit (must be higher than speed_min) 
 - particles_amount: int ~ defines max number of heads per column
 - count_fps: true / false ~ counts fps and displays those as logs in console
